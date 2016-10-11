@@ -4,9 +4,8 @@ using namespace std;
 int main()
 {
 	ifstream infile("markdown.md");
-	MarkdownToHtml mark(infile);
+	MarkdownToHTML mark(infile);
 	//mark.convertTitle1();
-
 
 	return 0;
 }

@@ -1,7 +1,7 @@
 #include "MarkdownToHTML.h"
 using namespace std;
 
-MarkdownToHtml::MarkdownToHtml(ifstream &infile)
+MarkdownToHTML::MarkdownToHTML(ifstream &infile)
 {
 	if (!infile)
 	{
@@ -16,7 +16,7 @@ MarkdownToHtml::MarkdownToHtml(ifstream &infile)
 		cout << str_md[i] << endl;
 }
 
-//void MarkdownToHtml::convertTitle1()
+//void MarkdownToHTML::convertTitle1()
 //{
 //	for (int i = 0; i < str_md.size(); i++)
 //	{

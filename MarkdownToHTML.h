@@ -8,13 +8,13 @@
 #include <iomanip>
 #include <cstdlib>
 
-class MarkdownToHtml
+class MarkdownToHTML
 {
 private:
 	std::vector<std::string> str_md;
 	std::vector<std::string> str_html;
 public:
-	MarkdownToHtml(std::ifstream &infile);
+	MarkdownToHTML(std::ifstream &infile);
 	void initialize();
 	void convertTitle1();
 	
